@@ -1,0 +1,77 @@
+/* selettore{
+  proprieta':
+  valore:
+} */
+
+
+.contenitore{
+  width: 1100px
+}
+
+.contenitore{
+  margin: auto;
+}
+
+.logo{
+  width: 100px
+}
+.logo{
+  height: 100px
+}
+.titolologo{
+  color: white
+}
+
+.titolologo{
+  font-size: 30px
+}
+
+.titolo{
+  color: white
+}
+
+#unread-count{
+  color: red
+}
+
+#unread-count{
+  background-color: yellow
+}
+
+#unread-count{
+  border-radius: 50%
+}
+
+#unread-count{
+  padding: 5px
+}
+
+.row-read{
+  background-color: grey
+}
+.row-unread{
+  background-color: white
+}
+
+.row-left{
+  display: inline-block;
+  width: 30%
+}
+
+.row-right{
+  display: inline-block;
+  width: 68%
+}
+
+
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+#titolo1{
+  font-size: 25px
+}
+footer{
+  text-align: center;
+  color: white
+}

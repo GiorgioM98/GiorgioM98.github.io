@@ -1,0 +1,91 @@
+  /* selettore{
+ proprieta': valore;
+ proprieta': valore;
+} */
+
+
+.head-banner{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("immagini/sfondo natura.jpg");
+  /* background-color: #d4f00d; */
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+
+}
+
+.sezione-icone{
+  padding top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.bi{
+  width: 60px;
+  height: 60px;
+  color: green;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.classe-blue{
+  background-color: blue;
+  background-image: url(immagini/bosco.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.classe-red{
+  background-color: red;
+  background-image: url(immagini/bosco.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.classe-yellow{
+  background-color: yellow;
+  background-image: url(immagini/cascata.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.sezione-immagini .testo{
+  padding: 50px;
+  font-size: 15px;
+}
+
+.titolone{
+  color: green;
+  text-decoration: overline;
+  text-shadow: 1px 2px 1px;
+  font-family: cursive;
+}
+
+.avatar{
+  width: 100px;
+  border-radius: 50%;
+  border-color: green;
+  border: 1px solid green;
+}
+
+.form-floatting{
+  width: 200px;
+  margin-left: 50px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .head-banner{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .sezione-immagini .testo{
+    padding: 100px;
+  }
+}

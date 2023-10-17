@@ -1,0 +1,63 @@
+/* selettore{
+  proprieta': valore;
+  proprieta': valore;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  padding: 30px;
+  width: 100vw;
+  background-color: white;
+  position: relative;
+}
+
+.add a{
+  font-size: 30px;
+  color: rgb(1, 0, 255);
+  text-decoration: none;
+}
+
+.produttore{
+  font-size: 10px;
+  color: red;
+  border-bottom: 1px solid black
+}
+
+.titolo{
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px
+}
+
+.titolo a{
+  float: right;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(1, 0, 255)
+}
+
+.album{
+  float: left;
+  width: calc(100% / 6 - 20px);
+  margin: 10px;
+}
+
+img{
+  width: 100%;
+  height: 109px;
+}
+
+.testo, .numero{
+  font-size: 15px;
+}
+
+.numero{
+  color: grey;
+}

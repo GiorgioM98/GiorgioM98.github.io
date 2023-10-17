@@ -1,0 +1,92 @@
+/* PROPRIETA': valore;
+PROPRIETA': valore;
+PROPRIETA': valore; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+.init{
+    height: 650px;
+    margin-top: 4rem! important;
+}
+
+
+.first{
+    height: 100%;
+    border: 5px solid rgb(34, 34, 34);
+}
+
+
+.contatti{
+    padding-top: 10%;
+    padding-right: 40px;
+    font-style: oblique;
+    text-decoration: underline;
+    color: #DCFE50;
+}
+
+.descriptionContatti{
+    padding-top: 10%;
+    padding-right: 40px;
+    overflow-wrap: break-word;
+}
+
+
+img{
+    width: 30px;
+}
+
+
+.app{
+    padding-top: 10%;
+    padding-left: 40px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+
+.descriptionSocial{
+    padding-top: 10%;
+    padding-left: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+
+.img-fluid{
+    width: 100%;
+}
+
+
+.title{
+    color: #DCFE50;
+}
+
+
+.text-center{
+    font-size:xx-small;
+}
+
+
+
+@media (max-width: 514px) {
+
+    .img-fluid{
+        margin-top: 500px;
+    }
+
+    .contenitoreVuoto{
+        height: 500px;
+    }
+}
+
+
+

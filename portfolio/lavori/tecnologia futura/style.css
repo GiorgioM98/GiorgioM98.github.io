@@ -1,0 +1,472 @@
+/* selettore{
+  proprieta': valore;
+  proprieta': valore;
+} */
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+
+.header{
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+}
+
+
+.introduzione{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+
+.box1{
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  height: 510px;
+  background-image: url(img/original.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.box2{
+  width: 50%;
+  height: 510px;
+  background-image: url(img/colore.jpeg);
+  border-bottom: 5px solid black;
+  position: absolute;
+  right: 0px;
+}
+
+
+.testo1{
+  border: 5px solid white;
+  width: 400px;
+  height: 400px;
+  margin: 60px;
+  padding: 10px;
+}
+
+
+#testo-principale{
+  font-size: 30px;
+}
+
+
+.spazio{
+  width: 100%;
+  height: 400px;
+}
+
+
+.titolo1{
+  color: rgb(175, 175, 175);
+}
+
+
+.testo-grassetto{
+  font-size: 20px;
+}
+
+
+p{
+  font-size: 20px;
+}
+
+
+.container{
+  margin: 200px;
+}
+
+
+.paragrafo{
+  text-align: left;
+}
+
+
+.img1{
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.img2{
+  width: 600px;
+}
+
+
+.immagine{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-bottom: 20px;
+}
+
+
+.bottom{
+  font-size: 15px;
+  border: 2px solid rgb(52, 214, 217);
+  padding: 15px;
+}
+
+
+.paragrafo2{
+  display: flex;
+  width: 1000px;
+  margin: 200px;
+  justify-content: space-between;
+
+}
+
+
+.tecnologie{
+  width: 33.3%;
+  height: 400px;
+  background-color: #17cad0;
+  text-align: left;
+  color: white;
+  padding: 60px;
+  padding-top: 120px;
+  position: relative;
+}
+
+
+.testo2{
+  font-size: 17px;
+}
+
+.future-cars{
+  width: 33.3%;
+  height: 500px;
+  background-color: none;
+  text-align: left;
+  padding: 60px;
+  padding-top: 120px;
+  position: relative;
+  left: 50px;
+}
+
+
+.robot-al{
+  width: 33.3%;
+  height: 500px;
+  background-color: none;
+  text-align: center;
+  text-decoration: white;
+  text-align: left;
+  padding: 60px;
+  padding-top: 120px;
+  position: relative;
+  left: 50px;
+}
+
+
+.row{
+  width: 50%;
+  height: 10px;
+  background-color: #17cad0;
+  display: table;
+  float: right;
+}
+
+
+.tecnologie img{
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+.future-cars img{
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+.robot-al img{
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+.immagine-camion{
+  display: block;
+  float: left;
+  background-image: url("img/camion.jpeg");
+  background-repeat: no-repeat;
+  background-position: 70%;
+  width: 50%;
+  height: 800px;
+}
+
+
+.paragrafo3{
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 100px;
+}
+
+
+.clear{
+  clear: both;
+}
+
+
+.automobile{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.auto{
+  float: left;
+  width: calc(100% / 5 - 6px);
+  margin: 3px;
+}
+
+
+.auto img{
+  width: 100%;
+}
+
+
+.paragrafo4{
+  width: 100%;
+  position: relative;
+}
+
+
+.box-nero{
+  width: 50%;
+  height: 700px;
+  background-color: #293333;
+  float: left;
+}
+
+
+.box-colorato{
+  width: 50%;
+  height: 700px;
+  background-color: #17cad0;
+  float: left;
+}
+
+
+.testo3{
+  color: white;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+
+.riquadro{
+  margin: 200px 200px 200px 25px ;
+}
+
+
+.testo4{
+  color: white;
+  border: 5px solid white;
+  padding: 100px 25px 100px 25px;
+  text-align: right;
+}
+
+
+.container5{
+  margin-left: 200px;
+  margin-right: 170px;
+}
+
+
+.paragrafo5{
+  display: block;
+  float: left;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+
+
+.row-1, .row-2{
+  margin-top: 20px;
+  width: 50%;
+  float: left;
+}
+
+
+.img-1{
+  width: 260px;
+  height: 260px;
+  display: block;
+  float: left;
+  background-image: url(img/immagine1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+
+.img-2{
+  width: 260px;
+  height: 260px;
+  display: block;
+  float: left;
+  background-image: url(img/immagine2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+
+.img-3{
+  width: 260px;
+  height: 260px;
+  display: block;
+  float: left;
+  background-image: url(img/immagine3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+
+.img-4{
+  width: 260px;
+  height: 260px;
+  display: block;
+  float: left;
+  background-image: url(img/immagine4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+
+.black-box{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+.titolo2{
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 80px;
+}
+
+
+.aziende{
+  color: white;
+  margin-left: 500px;
+  margin-top: 150px;
+  margin-right: 400px;
+}
+
+
+.multi-paragrafi{
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+
+.mini-p{
+  float: left;
+  width: calc(100% / 5 - 16px);
+  margin: 8px;
+}
+
+
+.fine-pagina{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+
+.testo-finep{
+  float: left;
+  width: 50%;
+}
+
+
+.text{
+    color: #17cad0;
+}
+
+
+img{
+  width: 500px;
+}
+
+
+.footer{
+  height: 400px;
+  width: 100%;
+  background-color: #293333
+}
+
+
+#futuro{
+  color: white;
+  text-align: center;
+  line-height: 200px;
+}
+
+
+.logo-footer{
+  text-align: center;
+  margin-top: -30px;
+}
+
+
+.loghi{
+  width: 35px;
+}
+
+.community{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+}

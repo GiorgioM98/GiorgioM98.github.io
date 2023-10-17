@@ -1,0 +1,62 @@
+/* PROPRIETA': valore;
+PROPRIETA': valore;
+PROPRIETA': valore; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+.init{
+    height: 650px;
+    margin-top: 4rem! important;
+}
+
+
+.first{
+    height: 100%;
+    border: 5px solid rgb(34, 34, 34);
+}
+
+
+.black{
+    padding-top: 18%;
+    text-align: right;
+    text-decoration: underline;
+    font-style: oblique;
+    color: #DCFE50;
+}
+
+
+.white{
+    padding-top: 18%;
+    text-decoration: underline; 
+    font-style: oblique;
+}
+
+
+.container{
+   height: auto;
+}
+
+
+.row{
+    padding: 10px;
+}
+
+
+.title{
+    color: #DCFE50;
+}
+
+
+.text-center{
+    font-size:xx-small;
+}
+
+
+
+
