@@ -58,7 +58,7 @@
     
 
             <div class="col white bg-light text-dark fw-bold fs-1">
-                <div class="fw-bold fs-1 text-dark app">Social Network</div>
+                <div class="fw-bold fs-1 text-dark app text-start">Social Network</div>
 
                   <p class="text-start fs-5 text-dark descriptionSocial"><b><img src="../assets/img/instagram.svg" alt="logo instagram"><a class="link img-fluid" href="https://www.instagram.com/">   Instagram</a></b>
     
@@ -80,7 +80,7 @@
       <div class="contenitoreVuoto"></div>
 
 
-        <div class="container mb-1">
+        <div class="container mb-3">
         <div class="row">
           <div class="col turin"><img src="../assets/img/torino.jpeg" class="img-fluid" alt="img-of-turin">
           </div>
@@ -88,14 +88,14 @@
         </div>
 
         <div class="container bg-dark">
-        <div class="row">
-          <div class="mb-3">
+        <div class="row d-flex justify-content-center">
+          <div class="mb-3 col-md-3">
             <label for="exampleFormControlInput1" class="form-label text-light">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
 
-        <div class="mb-3">
-          <label for="exampleDataList" class="form-label text-light">Nation 
+        <div class="mb-3 col-md-3 ">
+          <label for="exampleDataList" class="form-label text-light">Nation  
           </label>
             <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
               <datalist id="datalistOptions">
@@ -113,21 +113,40 @@
             </datalist>
           </div>
 
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label text-light">Example textarea</label>
+          <div class="mb-3 col-md-3">
+            <label for="exampleFormControlInput1" class="form-label text-light">City </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your city">
+          </div>
+
+
+        <div class="mb-3 col-md-7">
+          <label for="exampleFormControlTextarea1" class="form-label text-light">More information</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write here" rows="3"></textarea>
         </div>
 
-        <div class="mb-3">
-          <label for="inputPassword5" class="form-label text-light">Password</label>
-            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-            <div id="passwordHelpBlock" class="form-text text-light">
-              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-            </div>
-           </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label text-light ">Password</label>
           </div>
-       </div>
+          <div class="col-auto">
+            <input type="password" id="inputPassword6" class="form-control text-light" aria-describedby="passwordHelpInline">
+          </div>
+          <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text text-light">
+              Must be 8-20 characters long.
+            </span>
+          </div>
+        </div>
+  
 
+          
+
+          <div class="button d-flex justify-content-center">
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+
+       </div>
+      </div>
 
       <footer>
         <div class="footer">
@@ -137,8 +156,7 @@
         </div>
     </footer>  
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>

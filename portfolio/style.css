@@ -107,6 +107,16 @@ PROPRIETA': valore; */
     font-size:xx-small;
 }
 
+.fs-2{
+    background-color: rgba(255,255, 255, 0.7);
+}
+
+.fs-2 :hover{
+    box-shadow: 5px 5px 5px 5px rgb(241, 4, 4);
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+
 
 
 

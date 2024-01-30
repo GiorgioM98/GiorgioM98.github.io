@@ -55,9 +55,20 @@ img{
     padding-left: 40px;
 }
 
-.link{
-    text-decoration: none;
+.row{
+    padding: 10px;
 }
+
+
+.link {
+    color: black;
+  }
+  
+  .link:hover {
+    box-shadow: 5px 5px 5px 5px black;
+    border-top: 2px solid red;
+  }
+
 
 
 .img-fluid{
@@ -72,6 +83,15 @@ img{
 
 .text-center{
     font-size:xx-small;
+}
+
+.d-flex{
+    padding: 15px;
+}
+
+.button:hover{
+    transition: 0.5s;
+    transform: scale( 1.2 );
 }
 
 

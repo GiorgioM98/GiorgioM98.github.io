@@ -49,12 +49,15 @@ PROPRIETA': valore; */
 
 
 .title{
-    color: #DCFE50;
+    color: white;
 }
-
 
 .text-center{
     font-size:xx-small;
+}
+
+.spazio{
+    margin-right: 15px;
 }
 
 
