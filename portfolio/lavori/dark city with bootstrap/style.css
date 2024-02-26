@@ -1,0 +1,63 @@
+.head-banner{
+    background-color: #717171;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url("https://i.etsystatic.com/6955108/r/il/5b579f/884430148/il_fullxfull.884430148_ca5h.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+.sezione-icone{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.bi{
+    font-size: 60px;
+}
+
+.img1{
+    background-image: url("https://images.unsplash.com/photo-1578297886235-c521966ea880?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMGNpdHl8ZW58MHx8MHx8fDA%3D");
+}
+
+.img2{
+    background-image: url("https://images.fineartamerica.com/images-medium-large-5/new-york-skyline-vertical-bw-dave-beckerman.jpg");
+}
+
+
+.img3{
+    background-image: url("https://media.istockphoto.com/id/1193133237/photo/new-york-city-skyline-view-at-night-with-yellow-lights-contrasted-against-the-black-and-white.jpg?s=612x612&w=0&k=20&c=3hbl9GywWklc1wiRrbhyeIGx_dgph08cSIS_GE8gMf8=");
+}
+
+
+.sezione-immagini .immagini{
+    min-height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.sezione-immagini .testo{
+    padding: 7rem;
+
+}
+
+.newsletter{
+    background-color: #717171;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url("https://i.etsystatic.com/6955108/r/il/5b579f/884430148/il_fullxfull.884430148_ca5h.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}

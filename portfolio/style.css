@@ -11,8 +11,9 @@ PROPRIETA': valore; */
     
 
 .init{
-    height: 650px;
+    height: 100vh;
     margin-top: 4rem! important;
+    margin-bottom: 1rem! important;
 }
 
 
@@ -22,34 +23,8 @@ PROPRIETA': valore; */
 }
 
 
-.black{
-    padding-top: 18%;
-    text-align: right;
-    text-decoration: underline;
-    font-style: oblique;
-    color: #DCFE50;
-}
-
-
-.white{
-    padding-top: 18%;
-    text-decoration: underline; 
-    font-style: oblique;
-}
-
-
 .container{
    height: auto;
-}
-
-
-.row{
-    padding: 10px;
-}
-
-
-.title{
-    color: #DCFE50;
 }
 
 
@@ -103,13 +78,10 @@ PROPRIETA': valore; */
 }
 
 
-.text-center{
-    font-size:xx-small;
-}
-
 .fs-2{
     background-color: rgba(255,255, 255, 0.7);
 }
+
 
 .fs-2 :hover{
     box-shadow: 5px 5px 5px 5px rgb(241, 4, 4);

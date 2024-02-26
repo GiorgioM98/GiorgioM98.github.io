@@ -37,7 +37,7 @@ PROPRIETA': valore; */
 }
 
 
-img{
+.iconaSocial{
     width: 30px;
 }
 
@@ -71,7 +71,7 @@ img{
 
 
 
-.img-fluid{
+.torino{
     width: 100%;
 }
 
@@ -85,9 +85,11 @@ img{
     font-size:xx-small;
 }
 
-.d-flex{
+
+.rigaPassword{
     padding: 15px;
 }
+
 
 .button:hover{
     transition: 0.5s;
@@ -98,7 +100,7 @@ img{
 
 @media (max-width: 514px) {
 
-    .img-fluid{
+    .torino{
         margin-top: 500px;
     }
 

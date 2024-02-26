@@ -21,7 +21,7 @@ cognome.addEventListener("mouseout", function(){
 
 
 document.addEventListener("DOMContentLoaded", function() {
-      const elements = document.querySelectorAll(".text-start, .text-end, .img-fluid, .mb-3");
+      const elements = document.querySelectorAll(".text-start, .text-end, .torino, .contenitoreTorino");
       elements.forEach(element => {
         element.style.opacity = 0;
         element.style.transform = "translateX(-100px)";

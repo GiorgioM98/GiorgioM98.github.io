@@ -1,102 +1,376 @@
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="home/style.css">
-     <!-- titolo -->
-    <title>Giorgio Marian</title>
-    <!-- logo -->
-    <link rel="icon" href="assets/img/logo.jpg">
-    <!--Bootstrap Css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    
-    <!-- navbar -->
-    <nav class="navbar bg-dark border-bottom border-body  fixed-top" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
-              <a class="nav-link" href="portfolio/index.html">PORTFOLIO</a>
-              <a class="nav-link" href="skills/index.html">SKILLS</a>
-              <a class="nav-link" href="goals/index.html">GOALS</a>
-              <a class="nav-link" href="contacts/index.html">CONTATCS</a>
-            </div>
-          </div>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="home/style.css" />
+  <!-- titolo -->
+  <title>Giorgio Marian</title>
+  <!-- logo -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon_io/site.webmanifest">
+  <!--Bootstrap Css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- navbar -->
+
+
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top mx-5" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><b>
+          <h3 id="brandNome">GM</h3>
+        </b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+          <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          <a class="nav-link" href="#skills">SKILLS</a>
+          <a class="nav-link " href="#contacts">CONTACTS</a>
         </div>
-      </nav>
-
-
-      <div class="container init">
-        <div class="row first">
-            <div class="col black bg-dark fw-bold fs-1">
-              GIORGIO</div>
-            <div class="col white bg-light text-dark fw-bold fs-1">MARIAN</div>
-          </div>
       </div>
+    </div>
+  </nav>
 
-       <div class="container">
-        <div class="row bg-dark">
-            <div class="col text-light">
-              <h2 class="title">Welcome to official web page</h2>
-            <p class="fs-5"><b>Hello, my name is Giorgio Marian, I'm 25 years old!
-             <br><br><br></b>
-             I live in Turin, Italy. 
-             <br><br>
-             I am a Front-End Development student at Start2impact University!
-             <br><br>
-             Before that, I worked in the restaurant sector, now I'm really happy to do a training course in the sector that I love and which I hope will guarantee me a peaceful future.
-             <br><br>
-             Now I have the following skills:
-             <br> 
-             -Html
-             <br>
-             -Css
-             <br>
-             -Javascript
-             <br>
-             -Bootstrap
-             <br>
-             -Node.js
-             <br>
-             -Github
-        </p>
-        
-        <div class="col image col-md-6">
-          <img src="assets/img/html.5.png" width="10%" alt="">
-          <img src="assets/img/css.3.png" width="10.5%" alt="">
-          <img src="assets/img/javascript.1.svg" width="8.5%" alt="">
-          <img src="assets/img/Bootstrap_logo.png" width="12%" alt="">
-          <img src="assets/img/download_node.png" width="10%" alt="">
-          <img src="assets/img/github.1.png" width="10%" alt="">
+
+
+  <section id="home">
+
+    <div class="container init">
+      <div class="row first">
+        <div class="col black bg-dark fw-bold fs-1 d-flex align-items-center justify-content-end">GIORGIO</div>
+        <div class="col white bg-light text-dark fw-bold fs-1 d-flex align-items-center">MARIAN</div>
       </div>
-            </div>
+    </div>
 
-            <div class="col image col-md-4"><img src="assets/img/foto curriculum intera 4.jpg" class=" rounded-circle img-fluid immagine" alt="img-of-me">
-            </div>
-
-          </div>
-        </div>
-
-
-      <footer>
-        <div>
-          <p class="text-center" >Tutti i diritti sono riservati
+    <div class="container">
+      <div class="row bg-dark">
+        <div class="col text-light mt-4">
+          <h2 class="title">Welcome to official web page</h2>
+          <br> <br>
+          <p class="fs-5">
+            <b>Hello, my name is Giorgio Marian, I'm 25 years old!
+              <br /><br /><br /></b>
+            I live in Turin, Italy.
             <br>
-            ''Made by Marian Giorgio''</p>
+            I am a Front-End Development student at Start2impact University!
+            <br /><br />
+            Currently I have the following skills:
+            <br /><br />
+            -Html
+            <br />
+            -Css
+            <br />
+            -Javascript
+            <br />
+            -Bootstrap
+            <br />
+            -Node.js
+            <br />
+            -Github
+          </p>
+
+          <div class="col image col-md-6 mt-5">
+            <img src="assets/img/html.5.png" width="10%" alt="" />
+            <img src="assets/img/css.3.png" width="10.5%" alt="" />
+            <img src="assets/img/javascript.1.svg" width="8.5%" alt="" />
+            <img src="assets/img/Bootstrap_logo.png" width="12%" alt="" />
+            <img src="assets/img/download_node.png" width="10%" alt="" />
+            <img src="assets/img/github.1.png" width="10%" alt="" />
+          </div>
         </div>
-    </footer> 
+
+        <div class="col image col-md-4">
+          <img src="assets/img/foto curriculum intera 4.jpg" class="rounded-circle img-fluid immagine"
+            alt="img-of-me" />
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <script src="home/index.js"></script>
+  <section id="portfolio">
 
+    <div class="container text-center bg-dark mt-1">
+
+      <div class="row">
+        <div class="col mt-4 mb-3">
+          <h2 class="title">PORTFOLIO</h2>
+        </div>
+
+
+        <div class="row">
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="https://bookhub-7448c.web.app/"><img class="img-fluid immagineLink"
+                  src="assets/img/sfondo2.jpg" alt="">BookHub</a>
+            </p>
+          </div>
+
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="https://random-cocktail-a5a26.web.app/"><img class="img-fluid immagineLink"
+                  src="assets/img/cocktail db.webp" alt="">Cocktail Db</a>
+            </p>
+          </div>
+
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="https://primosito-2023.web.app/"><img class="img-fluid immagineLink"
+                  src="assets/img/stars.jpg" alt="">Falling-stars counter</a>
+            </p>
+          </div>
+
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="portfolio/lavori/bootstrap/index.html"><img class="img-fluid immagineLink"
+                  src="assets/img/lago.jpg" alt="">Homepage Bootstrap</a>
+            </p>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="portfolio/lavori/dark city with bootstrap/index.html"><img
+                  class="img-fluid immagineLink" src="assets/img/city.jpeg" alt="">Dark city</a>
+            </p>
+          </div>
+
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="portfolio/lavori/gmail/index.html"><img class="img-fluid immagineLink"
+                  src="assets/img/logo-gmail.svg.png" alt="">Gmail</a>
+            </p>
+          </div>
+
+          <div class="col m-3 all">
+            <p class="fs-2">
+              <a class="linkWebPage" href="portfolio/lavori/airbnb/index.html"><img class="img-fluid immagineLink"
+                  src="assets/img/logo-airbnb-nuovo.jpg" alt="">Air Bnb</a>
+            </p>
+          </div>
+
+
+  </section>
+
+
+
+
+  <section id="skills">
+
+
+    <div class="container text-center bg-dark text-light mt-1">
+
+      <div class="row">
+        <div class="col mt-4 mb-5">
+          <h2 class="title">MY SKILLS</h2>
+        </div>
+
+        <div class="row rigaSkills">
+          <div class="col">
+            <img src="../assets/img/determination.png" class="rounded-circle img-fluid iconaTonda" width="40%" alt="">
+            <p class="fs-4">DETERMINATION</p>
+            <p class="fs-6">My best quality is determination, because nowdays without determination you do nothing</p>
+          </div>
+          <div class="col">
+            <img src="../assets/img/idea.webp" class="rounded-circle img-fluid iconaTonda" width="40%" alt="">
+            <p class="fs-4">ENTERPRISING</p>
+            <p class="fs-6">Resourcefulness is a value that I have acquired in recent years thanks to the experiences in
+              the world of work</p>
+          </div>
+          <div class="col">
+            <img src="../assets/img/problem solving.jpg" class="rounded-circle img-fluid iconaTonda" width="40%" alt="">
+            <p class="fs-4">PROBLEM SOLVING</p>
+            <p class="fs-6">Life puts you in front of obstacles and without good problem solving you don't solve
+              anything
+              and you can't move forward</p>
+          </div>
+        </div>
+
+        <div class="row rigaSkills">
+          <div class="col">
+            <img src="../assets/img/flex.jpg" class="rounded-circle img-fluid iconaTonda" width="40%" alt="">
+            <p class="fs-4">MENTAL FLEXIBILITY AND FLEXIBILITY TO CHANGE</p>
+            <p class="fs-6">The mind is increasingly faced with a thousand things to do at the same time and with good
+              flexibility you can do everything</p>
+          </div>
+          <div class="col">
+            <img src="../assets/img/endurance to stress.jpg" class="rounded-circle img-fluid iconaTonda" width="40%"
+              alt="">
+            <p class="fs-4">ENDURANCE TO STRESS</p>
+            <p class="fs-6">Thanks to years of work experience I have developed an excellent resistance to stress</p>
+          </div>
+          <div class="col">
+            <img src="../assets/img/resilience.webp" class="rounded-circle img-fluid iconaTonda" width="40%" alt="">
+            <p class="fs-4">RESILIENCE AND ABILITY TO ADAPT</p>
+            <p class="fs-6">Different contests require the possiblity od being able to adapt</p>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <section id="contacts">
+
+    <div class="container containerContatti mt-1">
+      <div class="row rigaCOntatti">
+
+        <div class="col-sm-6 black bg-dark">
+          <div class="fw-bold fs-1 text-end contatti">Contact</div>
+
+          <p class="text-end fs-5 text-light descriptionContatti">Italy
+            <br><br>
+            Corso Stati Uniti d'America 199
+            <br><br>
+            CAP 10992
+            <br><br>
+            Turin
+            <br><br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="green     " class="bi bi-whatsapp"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg> +39 3273554130
+            <br><br>
+            giorgiomarian21@gmail.com
+          </p>
+        </div>
+
+
+        <div class="col-sm-6 white bg-light text-dark fw-bold fs-1">
+          <div class="fw-bold fs-1 text-dark app text-start">Social Network</div>
+
+          <p class="text-start fs-5 text-dark descriptionSocial"><b><img class="iconaSocial"
+                src="../assets/img/instagram.svg" alt="logo instagram"><a class="link img-fluid iconaSocial"
+                href="https://www.instagram.com/">
+                Instagram</a></b>
+
+            <br>
+            <br>
+            <b><img class="iconaSocial" src="../assets/img/facebook.svg" alt="logo facebook"><a class="link img-fluid"
+                href="https://www.facebook.com/"> Facebook</a></b>
+            <br>
+            <br>
+            <b><img class="iconaSocial" src="../assets/img/linkedin.svg" alt="logo linkedin"><a class="link img-fluid"
+                href="https://www.linkedin.com/in/giorgio-marian-029776252/"> Linkedin</a></b>
+            <br>
+            <br>
+            <b><img class="iconaSocial" src="../assets/img/github.svg" alt="logo github"><a class="link img-fluid"
+                href="https://github.com/GiorgioM98"> Github</a></b>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col turin d-flex justify-content-center "><img src="../assets/img/torino.jpeg"
+            class="img-fluid torino" alt="img-of-turin">
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container text-center bg-dark formIscrizione">
+
+      <div class="row">
+        <div class="col mt-4 mb-5">
+          <h2 class="title">Newsletter</h2>
+        </div>
+
+
+        <div class="row d-flex justify-content-center">
+          <div class="mb-3 col-md-3">
+            <label for="exampleFormControlInput1" class="form-label text-light">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          </div>
+
+
+
+          <div class="row d-flex justify-content-center">
+            <div class="mb-3 col-md-3">
+              <label for="exampleFormControlInput1" class="form-label text-light">Nation </label>
+              <input type="text" class="form-control" id="nation" placeholder="Your city">
+            </div>
+          </div>
+
+
+          <div class="row d-flex justify-content-center">
+            <div class="mb-3 col-md-3 ">
+              <label for="exampleDataList1" class="form-label text-light">City
+              </label>
+              <input class="form-control" list="datalistOptions" id="city" placeholder="Type to search...">
+              <datalist id="datalistOptions">
+                <option value="Turin">
+                <option value="Milan">
+                <option value="Florence">
+                <option value="Napoli">
+                <option value="Rome">
+                <option value="Venice">
+                <option value="Paris">
+                <option value="Berlin">
+                <option value="London">
+                <option value="Kiev">
+                <option value="Moscow">
+              </datalist>
+            </div>
+          </div>
+
+
+          <div class="row d-flex justify-content-center">
+            <div class="mb-3 col-md-7">
+              <label for="exampleFormControlTextarea1" class="form-label text-light">More information</label>
+              <textarea class="form-control" id="info" placeholder="Write here" rows="3"></textarea>
+            </div>
+          </div>
+
+
+
+          <div class="row d-flex justify-content-center">
+            <div class="button d-flex justify-content-center">
+              <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+          </div>
+
+        </div>
+
+  </section>
+
+
+  <footer>
+    <div>
+      <p class="text-center">
+        Tutti i diritti sono riservati
+        <br />
+        ''Made by Giorgio Marian''
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="home/index.js"></script>
 </body>
+
 </html>
